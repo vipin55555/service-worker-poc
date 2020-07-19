@@ -1,0 +1,45 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.8em;
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.image-div-1 {
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-div-1 {
+    background-image: url('./assets/images/time.jpg');
+    min-height: 100%;
+}
+
+.image-heading {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.image-heading span {
+    background-color: #111;
+    color: white;
+    padding: 24px;
+}
+
